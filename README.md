@@ -1,1 +1,1 @@
-# pratyushtripathy.github.io
+# pratyusht.github.io
