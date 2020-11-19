@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.1.4, https://mobirise.com -->
+  <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.1.4, mobirise.com">
+  <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <meta name="description" content="">
@@ -61,7 +61,7 @@
             <div class="col-12 col-lg-8">
                 <h3 class="mbr-section-title mb-4 mbr-fonts-style display-2">
                     <strong>Half-baked methods</strong></h3>
-                <p class="mbr-text mb-5 mbr-fonts-style display-7">My experience so far in doing research made me realise that we manage to publish only a small part of our overall work. We often drop the tempting or debatable ideas. Sometimes the idea, although interesting, is not substantial enough to qualify as “publishable” content. At times, we are simply too caught up to revisit.&nbsp;These are some of the stuff I can remember on top of my head, will keep adding.<br></p>
+                <p class="mbr-text mb-5 mbr-fonts-style display-7">My experience so far got me to thinking that we manage to publish only a small part of our overall work, our best pieces of work. And on the way, we often drop some of the smaller albeit interesting ideas. These can be debatable too, or&nbsp;not substantial enough to qualify as “publishable” content. And most of the times, we are simply too caught up to revisit.&nbsp;These are some of the stuff I wish to share, and more importantly develop an inventory for my own use.<br></p>
                 
             </div>
         </div>
@@ -87,7 +87,7 @@
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
                         <strong>Vector Layer Alignment Correction</strong><br></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">How painful is it to work with data from different sources? Most of us who encountered the inevitable reality of "out of the college" work, would know well. As a part of the population distribution work for Mumbai, we were interested in a few land use classes. However, the data available in the public domain, although georeferenced, did not match well with other vector and raster layers. And this was the obvious source of error that we identified even before running the population distribution model. Please note that the misalignment was not uniform in a particular direction and hence, trying to shift the layer to match with other layers did not work.&nbsp;We figured out the logic and it was no sooner that we converted it to a script, and bingo! We arrived at exactly what was required.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">How painful is it to work with data from different sources? Most of us who encountered the inevitable reality of "out of the college" work, would know well. As a part of the population distribution work for Mumbai, we were interested in a few land use classes. However, the data available in the public domain, although georeferenced, did not match well with other vector and raster layers. And this was the obvious source of error that we identified even before running the population distribution model. Please note that the misalignment was not uniform in a particular direction and hence, trying to shift the layer to match with other layers did not work.&nbsp;We figured out the logic, did Python, and bingo! Arrived at exactly what was required.</p>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
                         <strong>Automated Building Footprint Alignment</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">We came across building footprints (BF) data where the entire city was covered by a couple of hundreds of vector layers. These layers overlapped at the edges, and quite often there were more than two overlapping layers. To assert the obvious point, there was no consistency or pattern in the error. We had to find the footprint of the same building in multiple SHP layers, which sometimes were a couple of hundred meters away from each other. Since the shape of the BF were not exactly the same, identifying a building's footprint in another layer became much more challenging. Post finding the same building, we had to perform transformation adjustments because the distortion was not uniform across features of the same layer. Drawing on to the logic of transforming the vector layer shown above, I managed to build a tool that served the purpose. Not only it corrected the overlapping BFs, but also tried to fit a model that can learn the distortion and apply across all the features in the layer. Hundreds of thousands of BFs were corrected and de-duplicated.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">We came across building footprints (BF) data where the entire city was covered by a couple of hundreds of vector layers. These layers overlapped at the edges, and quite often there were more than two overlapping layers. To assert the obvious point, there was no consistency or pattern in the error. We had to find the footprint of the same building in multiple SHP layers, which sometimes were a couple of hundred meters away from each other. Since the shape of the BF were not exactly the same, identifying a building's footprint in another layer became much more challenging. Post identifying a building in multiple layers, we had to perform transformation adjustments and not just lateral shift because the distortion was not uniform across features of the same layer. Drawing on to the logic of transforming the vector layer shown above, I managed to build a tool that served the purpose. Not only it corrected the overlapping BFs, but also fit a model that learnt the distortion and transformed all the features in the layer. Hundreds of thousands of BFs were corrected and de-duplicated.</p>
                 </div>
             </div>
         </div>
@@ -138,7 +138,7 @@
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
-                        <strong>Actual Area of Terrain</strong></h3>
+                        <strong>Actual Surface Area of Terrain</strong></h3>
                     <p class="mbr-text mbr-fonts-style display-7">A random lunch table conversation about the actual surface area of terrain, especially in hilly region, led to writing a script that can stretch the Digital Elevation Model (DEM) in either horizontal or vertical direction. Later, I realised that a much more sophisticated model would be required to "flatten the 3D mesh". I lost interest the very moment I learnt that there are plenty of algorithms out there for flattening the surface, none of them were for a DEM though.</p>
                 </div>
             </div>
@@ -164,12 +164,12 @@
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Mapping Flood Using </strong><br><strong>C-Band SAR and Contours</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Sometime back in 2018, while supporting a NGO with flood water inundation maps, we hit a roadblock due to unavailability of cloud-free optical image and since the area was half covered with vegetation that the Sentinel-1 C band SAR data wouldn't penetrate. We were able to map water extent in open areas. Therefore, to get the inundated water extent beneath canopy, we used contours derived from the SRTM DEM, in the hope that water would enter areas of same elevation that are close to each other. Having cognisance of the shortcomings of the approach, we adopted to this method to get a rough estimation that otherwise would not have been possible.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">Sometime back in 2018, while supporting a NGO with flood water inundation maps, we hit a roadblock due to unavailability of cloud-free optical image and since the area was half covered with vegetation that the Sentinel-1 C band SAR data wouldn't penetrate. We were able to map water extent in open areas. Therefore, to get the inundated water extent beneath canopy, we used contours derived from the SRTM DEM, in the hope that water would enter areas of same elevation that are close to each other. Having cognisance of the shortcomings of the approach, we adopted to this method to get a rough estimation that otherwise would not have been possible. The map is on its way.</p>
                 </div>
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/d" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Website <a href="https://mobirise.site/f" style="color:#aaa;">was made</a> with Mobirise</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/t" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Created with Mobirise - <a href="https://mobirise.site/m" style="color:#aaa;">Read more</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
