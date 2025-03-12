@@ -1,12 +1,17 @@
 ---
-layout: page
-title: "About Me"
-permalink: /about/
+permalink: /
+title: "Pratyush Tripathy | Home"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
+About Me
+=====
 Hi, I'm **Pratyush Tripathy**, a PhD student in the Department of Geography at the University of California, Santa Barbara, where I bridge **remote sensing**, **machine learning**, and **econometric methods**—all with an eye toward contributing to environmental challenges, natural hazard management, and impact evaluation through causal analysis.
 
-I have  abackground training in Geoinformatics and therefore I fond myself working on a wide variety
+I have a background training in Geoinformatics and therefore I find myself working on a wide variety
 of projects that use remote sensing and GIS, and machine learning. The kind of projects that I have worked
 and/or still interested in working includes:
 - Flood mapping and impact assessment
