@@ -13,8 +13,8 @@ title                    : "Pratyush Tripathy"
 title_separator          : "-"
 name                     : &name "Pratyush Tripathy"
 description              : &description "personal description"
-url                      : https://pratyushtripathy.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://pratyushtripathy.github.io"
+baseurl                  : ""
 repository               : "pratyushtripathy/pratyushtripathy.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
