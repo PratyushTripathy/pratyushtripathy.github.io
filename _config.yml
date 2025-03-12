@@ -26,46 +26,17 @@ author:
   name             : "Pratyush Tripathy"
   pronouns         : "he/him/his"
   bio              : "PhD Student working on using geospatial data and AI models for impact evaluation."
-  location         : "Santa Barbara, CA, USA"
-  employer         : "University of California, Santa Barbara"
-  uri              : "pratyushtripathy.github.io"
+  location         : "Santa Barbara, CA"
+  employer         : "UC Santa Barbara"
   email            : "ptripathy@ucsb.edu"
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=cpHC_JgAAAAJ&hl=en&oi=ao"
   orcid            : "http://orcid.org/0000-0002-9278-8995"
   researchgate     : "https://www.researchgate.net/profile/Pratyush-Tripathy"
-  scopus           : "https://www.webofscience.com/wos/author/record/ABB-3576-2020"
-  webofscience           : "https://www.webofscience.com/wos/author/record/ABB-3576-2020"
 
   # Repositories and software development
   github           : "PratyushTripathy"
-
-  # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
