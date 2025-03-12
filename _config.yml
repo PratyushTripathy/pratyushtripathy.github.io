@@ -22,7 +22,7 @@ repository               : "pratyushtripathy/pratyushtripathy.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "media/headshot_pt.png"
+  avatar           : "media/headshot_pt.jpg"
   name             : "Pratyush Tripathy"
   pronouns         : "he/him/his"
   bio              : "PhD Student working on using geospatial data and AI models for impact evaluation."
