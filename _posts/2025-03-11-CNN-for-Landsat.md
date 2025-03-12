@@ -153,46 +153,6 @@ print("R-squared:", r2)
   <button id="next-section">Next →</button>
 </div>
 
-<!-- Inline JavaScript for Copy & Section Navigation -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Copy button functionality
-  document.querySelectorAll('.copy-btn').forEach(function(button) {
-    button.addEventListener('click', function() {
-      const codeBlock = button.previousElementSibling.innerText;
-      navigator.clipboard.writeText(codeBlock).then(function() {
-        button.innerText = "Copied!";
-        setTimeout(() => { button.innerText = "Copy Code"; }, 2000);
-      });
-    });
-  });
-
-  // Section navigation functionality
-  const sections = document.querySelectorAll('.book-section');
-  let currentSection = 0;
-  
-  function showSection(index) {
-    sections.forEach((section, i) => {
-      section.style.display = (i === index) ? "block" : "none";
-    });
-  }
-  showSection(currentSection);
-
-  document.getElementById('prev-section').addEventListener('click', function() {
-    if (currentSection > 0) {
-      currentSection--;
-      showSection(currentSection);
-    }
-  });
-  
-  document.getElementById('next-section').addEventListener('click', function() {
-    if (currentSection < sections.length - 1) {
-      currentSection++;
-      showSection(currentSection);
-    }
-  });
-});
-</script>
 
 <!-- Inline CSS Styles -->
 <style>
