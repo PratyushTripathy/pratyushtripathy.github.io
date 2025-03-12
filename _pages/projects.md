@@ -4,7 +4,19 @@ title: "Projects"
 permalink: /projects/
 ---
 
-# Open-Source Software
+The kind of projects that I have worked and/or still interested in working includes:
+- Flood mapping and impact assessment
+- Downscaling population and socio-economic indicators
+- Predicting deforestation in the Amazon 
+- Urban spatial analysis
+  - Building height mapping
+  - Urban growth models
+  - Street network analysis
+
+Open-Source Software
+=====
+I am a big supporter of open-source and try to contribute as and when time permits.
+Please check the tools listed below and my [Blogs](/year-archive/).
 
 ## Global Flood Mapper
 A Google Earth Engine application that uses Sentinel-1 SAR data for rapid flood mapping through an intuitive graphical interface.  

@@ -1,12 +1,14 @@
 ---
-layout: page
-title: "Publications"
 permalink: /publications/
+title: "Publications"
+author_profile: true
 ---
 
-# Publications
+Publications
+=====
 
-## Journal Articles
+Journal Articles
+------
 1. **Diksha, Kumar, A. & Tripathy, P. (2023).**  
    *Geographically Weighted Logistic Regression to measure the role of Intra-Urban Drivers for urban growth modelling in Kathmandu, Central Himalayas.*  
    Environmental Monitoring and Assessment, 195(5), 627.  
@@ -52,7 +54,8 @@ permalink: /publications/
    Cities, 90, 52-63.  
    [DOI](https://doi.org/10.1016/j.cities.2019.01.021)
 
-## Preprints
+Preprints
+------
 1. **Tripathy, P., Baylis, K., Wu, K., Watson, J., & Jiang, R. (2024).**  
    *Investigating the Segment Anything Foundation Model for Mapping Smallholder Agriculture Field Boundaries Without Training Labels.*  
    arXiv:2407.01846. ([arXiv](https://arxiv.org/abs/2407.01846))
@@ -65,7 +68,8 @@ permalink: /publications/
    *A CNN based method for sub-pixel urban land cover mapping using Landsat 5 TM and Resourcesat 1 - LISS IV imagery.*  
    arXiv:2112.08841. ([arXiv](https://arxiv.org/abs/2112.08841))
 
-## Books / Book Chapters
+Books / Book Chapters
+------
 1. **Perikamana, K. K., Balakrishnan, K., & Tripathy, P. (2024).**  
    *Deep learning approach for monitoring urban land cover changes.*  
    In *Earth Observation in Urban Monitoring* (pp. 171-196). Elsevier.
